@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: rgb(255, 237, 203);
+    align-items: center;
+}
+
+h1 {
+    color: #c3a307;
+    border: #030746;
+}
+
+input[type="text"] {
+    padding: 5px;
+    margin: 10px;
+    color:rgb(84, 2, 2);
+    block-size: 2rem;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #030746;
+    color: #fff;
+    border:#c3a307;
+}
+
+p#result {
+    margin: 10px;
+    
+}

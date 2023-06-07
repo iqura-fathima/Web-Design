@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+
+:root {
+  --white: #fff;
+  --black: #1c2b2d;
+  --blue: #31326f;
+  --light-blue: #005490;
+  --color-primary: #9d0191;
+  --color-sec: #db6400;
+  --grey: #eee;
+  --dark-grey: #222831;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.count {
+  font-size: 3rem;
+}
+
+body {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 30rem;
+  border: 1px solid var(--grey);
+  padding: 3rem;
+  background-color: rgb(144, 178, 157);
+  text-align: center;
+  border-radius: 90px;
+  border-color: rgb(2, 54, 22);
+  border-width: 1rem;
+}
+
+.content{
+  font-size: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  color: rgb(5, 26, 86);
+  font-weight: bold;
+}
+
+.subtract{
+  display: inline-block;
+  padding: 8px; /* Adjust padding as needed */
+  text-align: center;
+  line-height: 0.5;
+  font-size: 1rem;
+  cursor: pointer;
+  font-style: oblique;
+  border-radius: 90px;
+  background-color:rgb(244, 177, 177);
+  color: #f45151;
+  font-family: cursive;
+}
+.add{
+  display: inline-block;
+  padding: 8px; /* Adjust padding as needed */
+  text-align: center;
+  line-height: 0.5;
+  font-size: 1rem;
+  cursor: pointer;
+  font-style: oblique;
+  border-radius: 90px;
+  background-color:#b9f6fc;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.reset{
+  display: inline-block;
+  padding: 8px; /* Adjust padding as needed */
+  text-align: center;
+  line-height: 0.5;
+  font-size: 1rem;
+  cursor: pointer;
+  font-style: oblique;
+  border-radius: 90px;
+  background-color:rgb(230, 208, 208);
+  font-family:serif;
+}

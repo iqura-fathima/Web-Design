@@ -1,0 +1,25 @@
+.popupContainer {
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.popupContent {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+}
+
+.closePopup {
+  margin-top: 10px;
+}
